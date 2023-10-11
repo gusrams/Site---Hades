@@ -1,0 +1,233 @@
+@font-face {
+    font-family:"Cinzel";
+    src: url("./fontes/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+}
+body{
+    background-color:#FFF2D8;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-origin: padding-box;
+    width: 1024px;
+    height: 1024px;
+}
+#banner{
+    border-bottom: 4px solid black;     
+    width: 2000px;
+}
+#user{
+    font-family:'Cinzel';
+    font-size: 150px;
+    font: bold;
+    position: relative;
+    left: 650px;
+    bottom: 675px;
+    color: white;
+
+
+}
+#perfil{
+    position: relative;
+    right: -100px;
+    bottom: 250px;
+}
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    left: -120px;
+    bottom: -10px;
+    font-size: 40px;
+    font-family: 'Cinzel';
+    color: black;
+}
+#fogaréu{
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+    width: 600px;
+
+}
+#título-história{
+    position: relative;
+    left: 1000px;
+    bottom: 750px;
+    font-size: 60px;
+    font-family:'Cinzel';
+}
+
+#texto{
+    position: relative;
+    left: -150px;
+    bottom: -50px;
+    font-family:'Cinzel';
+    font-size: 25px;
+}
+#título-imagens{
+    font-size: 100px;
+    position: relative;
+    left: 700px;
+    bottom: 250px;
+    font-family: 'Cinzel'
+}
+#imagem1{
+    position: relative;
+    left: 50px;
+    width: 250px;
+}
+#imagens-galeria{
+display: flex;
+
+}
+
+#imagem2{
+    position: relative;
+    left: 110px;
+    width: 250px;
+
+}
+#imagem3{
+    position: relative;
+    left: 170px;
+    width: 250px;  
+}
+#imagem5{
+    position: relative;
+    left: 200px;
+    width: 250px;
+    width: 250px;
+}
+#imagem6{
+    position: relative;
+    left: 250px;
+    width: 250px;
+}
+#imagem7{
+    position: relative;
+    left: 350px;
+    width: 250px;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+#jogo{
+    margin-left: 70px;
+    width: 400px;
+    border:  solid black;
+}
+#seiya{
+    margin-left: 170px;
+    position: relative;
+    bottom: -557px;
+    width: 410px;
+    border:  solid black;
+}
+#hércules{
+    position: relative;
+    right: -500px;
+    bottom: -275px;
+    width: 330px;
+    border:  solid black;
+}
+#título-inspiração{
+    font-size: 60px;
+    position: relative;
+    right: -550px;
+    bottom: -200px;
+    font-family:'Cinzel';
+}
+#texto-inspiração{
+    position: relative;
+    right: -850px;
+    bottom: 525px;
+    font-family:'Cinzel';  
+}
+#nome-seiya{
+    position: relative;
+    left: 635px;
+    bottom: 415px;
+    font-family:'Cinzel';
+}
+#nome-hércules{
+    position: relative;
+    left: 620px;
+    bottom: 730px;
+    font-family:'Cinzel';
+}
+#nome-jogo{
+    position: relative;
+    left: 180px;
+    bottom: 750px;
+    font-family:'Cinzel';
+}
+#título-relações{
+    position: relative;
+    left: 1070px;
+    bottom:450px;
+    font-family:'Cinzel';
+    font-size: 40px;
+}
+#texto-relações{
+    position: relative;
+    left: 1015px;
+    bottom: 450px;
+    font-size: 20px;
+    font-family:'Cinzel';
+}
+#Gugu{
+    font-size: 70px;
+    font-family:'Cinzel';
+    color: #F93E00;
+    position: relative;
+    left: 600px;
+    bottom: -100px;
+}
+#texto-gugu{
+    position: relative;
+    left: 550px;
+    bottom: -150px;
+    font-family:'Cinzel';
+}
+#fotinha{
+    position: relative;
+    bottom:  340px;
+    left: 180px;
+    border-radius: 5px;
+    border-color: black;
+}
+#insta{
+    width: 50px;
+    position: relative;
+    left: 550px;
+    bottom: -170px;
+}
+#zap{
+    width: 50px;
+    position: relative;
+    left: 495px;
+    bottom: -230px;
+}
+#texto-insta{
+    position: relative;
+    left: 610px;
+    bottom: -120px;
+    font-family:'Cinzel';
+}
+#texto-zap{
+    position: relative;
+    left: 610px;
+    bottom: -150px ;
+    font-family:'Cinzel';
+}
+
+footer{
+    background-color: black;
+}
